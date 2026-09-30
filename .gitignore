@@ -23,3 +23,11 @@ mlruns/
 # IDE
 .vscode/
 .idea/
+
+# MLflow
+mlflow.db
+mlartifacts/
+confusion_matrix_*.png
+
+# MLflow virtual environment
+.venv-mlflow/
