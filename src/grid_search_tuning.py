@@ -48,7 +48,7 @@ def load_dataset(path: str):
 
 
 def run_grid_search(data_path: str):
-    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_tracking_uri("http://127.0.0.1:5000")
     mlflow.set_experiment("iris-hyperparameter-tuning")
 
     X_train, X_test, y_train, y_test = load_dataset(
