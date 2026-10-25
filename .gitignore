@@ -31,3 +31,10 @@ confusion_matrix_*.png
 
 # MLflow virtual environment
 .venv-mlflow/
+# Practical 8: Testing artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Feast virtual environment
+.venv-feast/
