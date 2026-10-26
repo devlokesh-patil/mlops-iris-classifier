@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from src.train import train_model
 
 
-MIN_ACCEPTABLE_ACCURACY = 0.80
+MIN_ACCEPTABLE_ACCURACY = 0.999
 
 
 def test_model_meets_minimum_accuracy():
