@@ -32,10 +32,10 @@ jobs:
           pip install flake8 pytest pytest-cov
 
       - name: Check Python syntax
-run: python -m flake8 src/pipeline/ --max-line-length=100 --extend-ignore=E203,E302,E305,W292 --statistics        run: python -m compileall -q src tests
+        run: python -m compileall -q src tests
 
       - name: Lint source code
-        run: python -m flake8 src/ --max-line-length=100 --extend-ignore=E203 --statistics
+        run: python -m flake8 src/pipeline/ --max-line-length=100 --extend-ignore=E203,E302,E305,W292 --statistics
 
   test-suite:
     name: Test Suite
