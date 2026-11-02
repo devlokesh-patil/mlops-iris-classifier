@@ -38,3 +38,8 @@ htmlcov/
 
 # Feast virtual environment
 .venv-feast/
+.DS_Store
+
+# Test reports generated locally
+coverage.xml
+test-results.xml
